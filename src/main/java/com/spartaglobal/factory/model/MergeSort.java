@@ -1,14 +1,22 @@
-package com.spartaglobal.algorithms;
-public class MergeSort {
-    // Uses the merge sort method on a random int array of specified size and number boundary
-    public int[] mergeSort(int size, int bound){
-        RandomArray r = new RandomArray();
-        int[] ints = r.randArray(size, bound);
-        mergeSort(ints);
-        return ints;
-    }
 
-    public static void mergeSort (int[] ints){
+package com.spartaglobal.factory.model;
+
+import java.util.Arrays;
+
+public class MergeSort implements Sorter{
+    // Uses the merge sort method on a random int array of specified size and number boundary
+//    public int[] sort(int size, int bound){
+//        RandomArray r = new RandomArray();
+//        int[] ints = r.randArray(size, bound);
+//        sort(ints);
+//        return ints;
+//    }
+//    public static void sort(int[] ints){
+    public String sort(int[] ints){
+        mSort(ints);
+        return Arrays.toString(ints);
+    }
+    public static void mSort(int[] ints){
         int intsLength = ints.length;
         // Ends the recursion cycle when the array is split into its most discrete form of 1 unit
         if (intsLength < 2) {
@@ -26,8 +34,8 @@ public class MergeSort {
             rightArr[i - midIndex] = ints[i];
         }
         // Re-calls the splitting part of the algorithm until the initial array is split into single values
-        mergeSort(leftArr);
-        mergeSort(rightArr);
+        mSort(leftArr);
+        mSort(rightArr);
         // Calls the merging method to reconstruct and sort the array
         merge(ints, leftArr, rightArr);
     }
@@ -63,3 +71,4 @@ public class MergeSort {
         }
     }
 }
+

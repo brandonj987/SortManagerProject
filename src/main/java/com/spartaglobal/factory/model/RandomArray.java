@@ -1,8 +1,8 @@
-package com.spartaglobal.algorithms;
+package com.spartaglobal.factory.model;
 import java.util.Random;
 // Creates a random array with specified size and number boundary
-public class RandomArray {
-    public int[] randArray(int size, int bound){
+public class RandomArray implements Array{
+    public int[] makeArray(int size, int bound){
         int[] ints = new int[size];
         Random r = new Random();
         for (int i = 0; i < ints.length; i++) {

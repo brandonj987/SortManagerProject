@@ -1,5 +1,4 @@
 package com.spartaglobal.factory.Factory;
-
 import com.spartaglobal.factory.model.BinarySort;
 import com.spartaglobal.factory.model.Sorter;
 

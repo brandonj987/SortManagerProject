@@ -1,6 +1,4 @@
-
 package com.spartaglobal.factory.Factory;
-
 import com.spartaglobal.factory.model.MergeSort;
 import com.spartaglobal.factory.model.Sorter;
 

@@ -12,14 +12,14 @@ public class BinarySort implements Sorter {
 
     public int[] adapter(int[] ints){
         // The adapter helps fulfill the different input requirement the binary search tree has, compared to merge and bubble
-        // create array list
+        // Create array list
         ArrayList<Integer> integer = new ArrayList<>();
-        BinarySort theTree = new BinarySort();
+        BinarySort tree = new BinarySort();
         for (int i = 0; i < ints.length; i++) {
-            theTree.addNode(ints[i]);
+            tree.addNode(ints[i]);
         }
         // Traversing the binary tree to add to the arrayList
-        theTree.inOrderTraverseTree(theTree.root, integer);
+        tree.inOrderTraverseTree(tree.root, integer);
         // Placing values from array list into int[]
         int[] out = new int[integer.size()];
         int i = 0;
@@ -29,12 +29,6 @@ public class BinarySort implements Sorter {
         }
         return out;
     }
-
-
-
-
-
-
     // Creates nodes from the input array, in the binary tree format
     public void addNode(int key) {
         Node newNode = new Node(key);
@@ -62,7 +56,7 @@ public class BinarySort implements Sorter {
         }
     }
 
-    // traverses completed nodes and adds them to the arrayList
+    // Traverses completed nodes and adds their key value to the arrayList
     public void inOrderTraverseTree(Node focusNode, ArrayList<Integer> integer) {
         if (focusNode != null) {
             inOrderTraverseTree(focusNode.leftChild, integer);
@@ -71,13 +65,13 @@ public class BinarySort implements Sorter {
         }
     }
 
-// Creates the key for the node
-class Node {
-    int key;
-    Node leftChild;
-    Node rightChild;
-    Node(int key) {
-        this.key = key;
+    // Creates node and its key
+    class Node {
+        int key;
+        Node leftChild;
+        Node rightChild;
+        Node(int key) {
+            this.key = key;
+        }
     }
-}
 }

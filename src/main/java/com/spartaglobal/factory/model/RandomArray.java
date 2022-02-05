@@ -1,6 +1,7 @@
 package com.spartaglobal.factory.model;
 import java.util.Random;
-// Creates a random array with specified size and number boundary
+
+// This class creates a random array with specified size and number boundary
 public class RandomArray implements Array{
     public int[] makeArray(int size, int bound){
         int[] ints = new int[size];

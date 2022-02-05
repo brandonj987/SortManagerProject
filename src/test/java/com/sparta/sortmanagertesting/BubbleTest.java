@@ -7,9 +7,9 @@ import java.util.Arrays;
 
 public class BubbleTest {
     @Test
-    @DisplayName("Given a basic integer array, bubbleSort returns the array in order")
-    public void givenABasicIntegerArray_bubbleSort_ReturnsArrayInOrder() {
-        int[] actual = {5, 4, 3, 2, 1};
+    @DisplayName("Given a large integer array, bubbleSort returns the array in order")
+    public void givenALargeIntegerArray_bubbleSort_ReturnsArrayInOrder() {
+        int[] actual = {82, 86, 92, 36, 82, 68, 19, 73, 79, 98, 13, 45, 6, 15, 87, 58, 87, 57, 50, 66, 99, 68, 42, 45, 12, 80, 9, 38, 13, 93, 92, 100, 92, 38, 8, 99, 82, 78, 13, 94, 5, 8, 65, 24, 25, 80, 27, 4, 60, 32};
         int[] expected = actual.clone();
         BubbleSort b = new BubbleSort();
         b.sort(actual);

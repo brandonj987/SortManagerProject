@@ -7,9 +7,9 @@ import java.util.Arrays;
 
 public class BinaryTest {
     @Test
-    @DisplayName("Given a basic integer array, binarySort returns the array in order")
-    public void givenABasicIntegerArray_binarySort_ReturnsArrayInOrder() {
-        int[] array = {5, 4, 3, 2, 1};
+    @DisplayName("Given a large integer array, binarySort returns the array in order")
+    public void givenALargeIntegerArray_binarySort_ReturnsArrayInOrder() {
+        int[] array = {82, 86, 92, 36, 82, 68, 19, 73, 79, 98, 13, 45, 6, 15, 87, 58, 87, 57, 50, 66, 99, 68, 42, 45, 12, 80, 9, 38, 13, 93, 92, 100, 92, 38, 8, 99, 82, 78, 13, 94, 5, 8, 65, 24, 25, 80, 27, 4, 60, 32};
         int[] arrayClone = array.clone();
         BinarySort b = new BinarySort();
         String actual = b.sort(array);

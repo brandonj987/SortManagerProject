@@ -3,11 +3,15 @@
     <module name="SortManagerProject" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.sparta.sortmanagertesting.*" />
+        <option name="PATTERN" value="com.spartaglobal.factory.model.BinarySort" />
         <option name="ENABLED" value="true" />
       </pattern>
       <pattern>
-        <option name="PATTERN" value="com.spartaglobal.factory.model.*" />
+        <option name="PATTERN" value="com.spartaglobal.factory.model.BubbleSort" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="com.spartaglobal.factory.model.MergeSort" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>

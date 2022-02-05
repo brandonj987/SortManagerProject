@@ -1,12 +1,9 @@
 package com.sparta.sortmanagertesting;
-
 import com.spartaglobal.factory.model.MergeSort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
-
-
 
 public class MergeTest {
     @Test

@@ -1,4 +1,7 @@
-package com.spartaglobal.factory.model;
+package com.spartaglobal.factory.Factory;
+
+import com.spartaglobal.factory.model.BubbleSort;
+import com.spartaglobal.factory.model.Sorter;
 
 public class BubbleSortFactory extends SorterFactory{
     @Override

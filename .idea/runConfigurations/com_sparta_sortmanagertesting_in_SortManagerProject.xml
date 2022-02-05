@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="com.sparta.sortmanagertesting in SortManagerProject" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="SortManagerProject" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.sparta.sortmanagertesting.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="com.spartaglobal.factory.model.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.sparta.sortmanagertesting" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="package" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

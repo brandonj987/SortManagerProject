@@ -1,5 +1,9 @@
 package com.spartaglobal.factory.controller;
 
+import com.spartaglobal.factory.Factory.BinarySortFactory;
+import com.spartaglobal.factory.Factory.BubbleSortFactory;
+import com.spartaglobal.factory.Factory.MergeSortFactory;
+import com.spartaglobal.factory.Factory.SorterFactory;
 import com.spartaglobal.factory.model.*;
 
 public class SortManager {

@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MergeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="SortManagerProject" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.sparta.sortmanagertesting.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="com.spartaglobal.factory.model.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.sparta.sortmanagertesting" />
+    <option name="MAIN_CLASS_NAME" value="com.sparta.sortmanagertesting.MergeTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

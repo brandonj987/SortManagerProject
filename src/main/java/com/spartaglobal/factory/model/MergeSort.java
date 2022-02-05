@@ -36,7 +36,7 @@ public class MergeSort implements Sorter{
         merge(ints, leftArr, rightArr);
     }
 
-    // Merging method
+    // Merging the array back together
     public static void merge ( int[] ints, int[] leftHalf, int[] rightHalf){
         int leftSize = leftHalf.length;
         int rightSize = rightHalf.length;

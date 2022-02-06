@@ -1,10 +1,14 @@
 package com.spartaglobal.factory.model;
 import com.spartaglobal.factory.view.RandomArrayBound;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.InputMismatchException;
 
 // This class retrieves the users desired number bound
 // InputMismatchExceptions are also handled to ensure only an int is entered
 public class SelectBound {
+    public static Logger logger = LogManager.getLogger("Number Bound Logger");
     public int getInput(){
         int desiredBound = 0;
         while (desiredBound <= 0 || desiredBound > 10000000) {
@@ -21,6 +25,7 @@ public class SelectBound {
                 }
             }  catch (InputMismatchException i){
                 System.out.println("Please enter an integer between 1 and 10,000,000!");
+                logger.warn("User entered an incorrect data type for number bound!");
                 desiredBound = 0;
             }
         }

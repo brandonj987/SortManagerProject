@@ -1,23 +1,8 @@
-FILE [INFO ] 14:32 Sort Manager Logger - Sort Manager Initiated
-FILE [INFO ] 14:35 Sort Manager Logger - Sort Manager Initiated
-FILE [WARN ] 14:35 Array Size Logger - User entered an incorrect data type for array size!
-FILE [INFO ] 14:35 Sort Manager Logger - User chose to generate a random array
-FILE [WARN ] 14:35 Number Bound Logger - User entered an incorrect data type for number bound!
-FILE [INFO ] 14:35 Sorter Selection Logger - merge sort was selected
-FILE [INFO ] 14:35 Results Logger - The sort took 432300 nanoseconds to complete
-FILE [INFO ] 14:35 Sort Manager Logger - User chose to sort array again
-FILE [INFO ] 14:35 Sorter Selection Logger - bubble sort was selected
-FILE [INFO ] 14:35 Results Logger - The sort took 381900 nanoseconds to complete
-FILE [INFO ] 14:35 Sort Manager Logger - User chose to sort array again
-FILE [INFO ] 14:35 Sorter Selection Logger - binary sort was selected
-FILE [INFO ] 14:35 Results Logger - The sort took 674200 nanoseconds to complete
-FILE [INFO ] 14:35 Sort Manager Logger - Sort Manager exited
+FILE [INFO ] 21:50 Sort Manager Logger - Sort Manager Initiated
+FILE [WARN ] 21:50 Array Size Logger - User entered an incorrect data type for array size!
+FILE [INFO ] 21:50 Sort Manager Logger - User chose to generate a random array
+FILE [INFO ] 21:51 Sorter Selection Logger - merge sort was selected
+FILE [INFO ] 21:51 Results Logger - The sort took 479500 nanoseconds to complete
+FILE [INFO ] 21:51 Sort Manager Logger - Sort Manager exited
 |--------------------------------------------------|
-FILE [INFO ] 14:36 Sort Manager Logger - Sort Manager Initiated
-FILE [WARN ] 14:36 Array Size Logger - User entered an incorrect data type for array size!
-FILE [INFO ] 14:36 Sort Manager Logger - User chose to define an array
-FILE [WARN ] 14:36 Array input Logger - User entered an incorrect data type for array element!
-FILE [INFO ] 14:36 Sorter Selection Logger - BUBBLE sort was selected
-FILE [INFO ] 14:36 Results Logger - The sort took 390000 nanoseconds to complete
-FILE [INFO ] 14:36 Sort Manager Logger - Sort Manager exited
-|--------------------------------------------------|
+

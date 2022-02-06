@@ -49,7 +49,7 @@ To use JUnit and log4j, the following dependencies are required to be added to t
 ######
 **A typical console output for the sort manager looks as follows:**
 ######
-![img.png](img.png)
+![Console output](images/img.png)
 ######
 The user can also exit the sort manager at various stages by typing the specified exit character (x or -1).
 ## Sort Manager Creation Phases 
@@ -79,7 +79,7 @@ Null cases were not tested since the Sort Manager detects when a user enters nul
 ######
 The testing produced the following coverage for the 3 algorithms. 
 ######
-![img_4.png](img_4.png)
+![Test coverage](images/img_4.png)
 ######
 The user directed features of the sort manager underwent manual testing to ensure it operates as intended.
  The program will continue to run even when exceptions are thrown unless the user chooses to exit or the end of the program is reached. 
@@ -100,7 +100,7 @@ rootLogger.appenderRef.file.ref=LOGFILE
 ```
 A typical log file after the sort manager is used is shown below:
 ######
-![img_2.png](img_2.png)
+![Log file output](images/img_2.png)
 ######
 The following conditions trigger a line to be written in the log file.
 ######
